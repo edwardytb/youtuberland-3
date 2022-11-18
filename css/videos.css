@@ -67,3 +67,74 @@ ul, ol{
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
+.CamiloVy23{
+    border-radius: 47px;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    width: 75px;
+    height: 75px;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.titulo1{
+    position: relative;
+    top: -60px; /* ajustar los valores para mover la imagen */
+    left: 68px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30%;
+    display: block;
+    color: red;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.img1{
+    position: relative;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: -5px;
+    /*width: 390px;
+    height: 250px;*/
+    margin: 30%;
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.texto1{
+    position: relative;
+    top: -100px; /* ajustar los valores para mover la imagen */
+    left: -5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30%;
+    color: #000;
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.btn1{
+    position: absolute;
+    top: 78%;
+    left: 125px;
+    width: 90px;
+    height: 48px;
+    color: #000;
+    background: rgb(85, 255, 190);
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.btn1:hover{
+    position: absolute;
+    top: 78%;
+    left: 125px;
+    width: 88px;
+    height: 47px;
+    color: rgb(255, 255, 255);
+    background: rgb(1, 255, 157);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
