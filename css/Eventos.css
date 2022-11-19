@@ -31,7 +31,7 @@ ul, ol{
     background-color: #000;
     color: #fff;
     text-decoration: none;
-    padding: 10px 8px;
+    padding: 10px 14px;
     display: block;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
@@ -49,7 +49,7 @@ ul, ol{
 .nav li ul{
     display: none;
     position: absolute;
-    min-width: 135px;
+    min-width: 130px;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
