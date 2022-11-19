@@ -20,14 +20,12 @@ body{
     width: 480px;
     min-width: 130px;
     font-family: Arial, Helvetica, sans-serif;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     display: flex;
     justify-content: center;
 }
 
 ul, ol{
     list-style: none;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .nav li a{
@@ -36,34 +34,28 @@ ul, ol{
     text-decoration: none;
     padding: 10px 15px;
     display: block;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .nav li a:hover{
     background-color: #434343;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .nav > li{
     float: left;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .nav li ul{
     display: none;
     position: absolute;
     min-width: 130px;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .nav li:hover > ul{
     display: block;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .nav li ul li{
     position: relative;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .nav li ul li ul{
@@ -71,5 +63,4 @@ ul, ol{
     display: flex;
     justify-content: center;
     top: 0px;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
