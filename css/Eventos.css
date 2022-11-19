@@ -64,7 +64,8 @@ ul, ol{
 }
 
 .nav li ul li ul{
-    right: -140px;
+    display: flex;
+    justify-content: center;
     top: 0px;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
