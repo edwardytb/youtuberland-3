@@ -9,6 +9,8 @@ body{
 }
 
 .titulo{
+    display: flex;
+    justify-content: center;
     color: red;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
