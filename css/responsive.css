@@ -1,0 +1,32 @@
+@media screen and (max-width: 1280px){
+    
+}
+
+@media screen and (max-width: 970px){
+    #header{
+        width: 100%;
+    }
+
+    .nav li a{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    
+}
+
+@media screen and (max-width: 600px){
+    .nav li a{
+        display: block !important;
+    }
+
+    .nav li ul{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    
+}
