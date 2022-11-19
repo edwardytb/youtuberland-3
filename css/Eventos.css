@@ -18,7 +18,7 @@ body{
 #header{
     margin: auto;
     width: 480px;
-    min-width: 80px;
+    min-width: 0px;
     font-family: Arial, Helvetica, sans-serif;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     display: flex;
