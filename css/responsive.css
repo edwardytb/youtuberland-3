@@ -2,46 +2,44 @@
     
 }
 
-@media screen and (max-width: 970px){
-    #header{
+@media(max-width:991px){
+    header{
+        padding: 20px;
+    }
+
+    header label{
+        display: initial;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid rgb(0, 0, 0,.1);
+        display: none;
+    }
+
+    header .navbar ul li{
         width: 100%;
     }
 
-    .nav li a{
-        padding: 10px;
-    }
-}
-
-@media screen and (max-width: 767px){
-    
-}
-
-@media screen and (max-width: 600px){
-    .nav li a{
-        display: block !important;
-    }
-
-    .nav li ul{
-        text-align: center;
+    header .navbar ul li ul{
+        position: relative;
         width: 100%;
     }
-    
-    .nav li:hover > ul{
-        display: block;
-        width: 65px;
+
+    header .navbar ul li ul li{
+        background: #eee;
     }
 
-    .card{
-        width: 380px;
-        height: 406px;
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
     }
 
-    .img{
-        width: 378px;
-        height: 200px;
+    #menu-bar:checked ~ .navbar{
+        display: initial;
     }
-}
-
-@media screen and (max-width: 400px){
-    
 }
