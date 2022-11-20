@@ -42,4 +42,35 @@
     #menu-bar:checked ~ .navbar{
         display: initial;
     }
+
+    .card{
+        width: 302px;
+        height: 426px;
+    }
+
+    .img{
+        width: 378px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    
+}
+
+@media screen and (max-width: 600px){
+
+    .card{
+        width: 320px;
+        height: 406px;
+    }
+
+    .img{
+        width: 378px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    
 }
