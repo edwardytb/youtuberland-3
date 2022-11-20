@@ -25,6 +25,21 @@
         text-align: center;
         width: 100%;
     }
+    
+    .nav li:hover > ul{
+        display: block;
+        width: 65px;
+    }
+
+    .card{
+        width: 380px;
+        height: 406px;
+    }
+
+    .img{
+        width: 378px;
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 400px){
