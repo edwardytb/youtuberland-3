@@ -1,4 +1,5 @@
 var cargando
 
+setTimeout(function(){alert("Porfavor espera un momento"); }, 100);
 
-alert("cargando, porfavor espere un momento")
+setTimeout(function(){ alert("cargando.... esto puede demorar"); }, 3500);
