@@ -91,16 +91,6 @@ main{
      height: 72vh;
 }
 
-footer{
-    background: black;
-    color: white;
-    text-align: center;
-    height: 100%;
-    line-height: 100%;
-    position: relative;
-    top: 80px; 
-}
-
 .text{
     color: red;
     display: flex;
@@ -124,6 +114,11 @@ footer{
 }
 
 .img{
-    width: 480px;
-    height: 300px;
+    width: 629px;
+    height: 303px;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
 }
