@@ -1,0 +1,69 @@
+/* una pequeña animación extra */
+@keyframes modal{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}
+/* estilo del contenedor padre */
+.modal {
+position: absolute;
+max-width: 500px;
+z-index: 15;
+color: #5A5A5A;
+padding: 10px;
+font: 13px/140% "Open Sans", Helvetica, Arial, sans-serif;
+}
+/* estilo del fondo */
+#modal-back {
+position: fixed;
+opacity: 0.8;z-index: 14;
+background: #000000;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+
+/* estilo de contenedor */
+.modal {
+    top: 50%;
+    left: 50%;
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    }
+
+/* estilo de subcontenedor */
+#modal-c {
+    height: 100%;
+    position: relative;
+    background: #fff;
+    -webkit-animation: modal 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 250ms backwards;
+    animation: modal 500ms cubic-bezier(0.215, 0.61, 0.355, 1) 250ms backwards;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0px 7px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0px 7px rgba(0, 0, 0, 0.5);
+    }
+
+ /* estilo de títulos */
+.modal h3 {
+    padding: 15px 0px;
+    text-align: center;
+    }
+
+/* estilo de contenido */
+.modal span {
+    display: block;padding: 0px 19px;
+    }
+
+/* estilo de botones */
+#buttons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 3px 0px;
+    }
+
+#buttons a{
+    height: 100%;padding: 7px 15px;
+    color: #3C6998;
+    display: inline-block;
+    text-decoration: none;
+}
