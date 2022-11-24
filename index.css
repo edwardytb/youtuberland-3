@@ -90,5 +90,12 @@ footer{
     line-height: 100%;
 }
 
+main a{
+    color: red;
+}
 
-    
+main a:hover{
+    cursor: alias;
+    color: rgb(255, 15, 15);
+    text-shadow: 5px 3px 0px rgba(61,255,0,1);
+}
