@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     text-transform: capitalize;
     text-decoration: none;
 }
@@ -80,4 +80,25 @@ header label{
     color: #333;
     cursor: pointer;
     display: none;
+}
+
+/*contenido de la web*/
+#Plugins{
+    color: red;
+}
+
+#imagen{
+    width: 629px;
+    height: 303px;
+    box-shadow: 16px 10px 33px 7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 16px 10px 33px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 16px 10px 33px 7px rgba(0,0,0,0.75);
+}
+
+#imagen.active{
+    width: 629px;
+    height: 303px;
+    box-shadow: 16px 10px 33px 7px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 16px 10px 33px 7px rgba(255,255,255,0.75);
+    -moz-box-shadow: 16px 10px 33px 7px rgba(255,255,255,0.75);
 }
