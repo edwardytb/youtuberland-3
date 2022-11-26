@@ -39,12 +39,22 @@
         display: initial;
     }
 
-    .card{
+    #card{
         width: 320px;
         height: 406px;
     }
 
-    .img{
+    #imagen{
+        width: 298px;
+        height: 148px;
+    }
+
+    #card.active{
+        width: 320px;
+        height: 406px;
+    }
+
+    #imagen.active{
         width: 298px;
         height: 148px;
     }
