@@ -102,3 +102,7 @@ header label{
     -webkit-box-shadow: 16px 10px 33px 7px rgba(255,255,255,0.75);
     -moz-box-shadow: 16px 10px 33px 7px rgba(255,255,255,0.75);
 }
+
+#comands{
+    color: rgb(0, 195, 255);
+}
