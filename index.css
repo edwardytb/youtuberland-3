@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     text-transform: capitalize;
     text-decoration: none;
 }
@@ -24,7 +24,7 @@ header{
 header .logo{
     font-weight: bolder;
     font-size: 25px;
-    color: #333;
+    color: rgb(255, 0, 0);
 }
 
 header .navbar ul{
@@ -80,14 +80,6 @@ header label{
     color: #333;
     cursor: pointer;
     display: none;
-}
-
-footer{
-    background: black;
-    color: white;
-    text-align: center;
-    height: 100%;
-    line-height: 100%;
 }
 
 main a{
