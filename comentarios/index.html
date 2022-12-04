@@ -4,33 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>comentarios</title>
-    <LINK REL="StyleSheet" HREF="./assets/css/index.css" TYPE="text/css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Sugerencias/info</title>
 </head>
 <body>
 
-    <!--sistema de comentarios-->
+    <div class="blog-card">
+        <input type="radio" name="select" id="tap-1" checked>
+        <input type="radio" name="select" id="tap-2">
+        <input type="radio" name="select" id="tap-3">
+        <input type="radio" name="select" id="tap-4">
+        <input type="radio" name="select" id="tap-5">
+        <input type="checkbox" id="imgTap">
+        <div class="sliders">
+           <label for="tap-1" class="tap tap-1"></label>
+           <label for="tap-2" class="tap tap-2"></label>
+           <label for="tap-3" class="tap tap-3"></label>
+           <label for="tap-4" class="tap tap-4"></label>
+           <label for="tap-5" class="tap tap-5"></label>
+        </div>
+        <div class="inner-part">
+           <label for="imgTap" class="img">
+           <img class="img-1" src="./assets/img/CamiloVy23.png">
+           </label>
+           <div class="content content-1">
+              <span>Organizador</span>
+              <div class="title">
+                CamiloVy23
+              </div>
+              <div class="text">
+                 informacion...
+              </div>
+              <button>Read more</button>
+           </div>
+        </div>
+        <div class="inner-part">
+           <label for="imgTap" class="img">
+           <img class="img-2" src="./assets/img/edwardytb.png">
+           </label>
+           <div class="content content-2">
+              <span>Administrador</span>
+              <div class="title">
+                 Edwardytb
+              </div>
+              <div class="text">
+                 informacion...
+              </div>
+              <button>Read more</button>
+           </div>
+        </div>
+        <div class="inner-part">
+           <label for="imgTap" class="img">
+           <img class="img-3" src="./assets/img/user.png">
+           </label>
+           <div class="content content-3">
+              <span>Administrador</span>
+              <div class="title">
+                 Lorem Ipsum Dolor
+              </div>
+              <div class="text">
+                 informacion...
+              </div>
+              <button>Read more</button>
+           </div>
+        </div>
+        <div class="inner-part">
+            <label for="imgTap" class="img">
+            <img class="img-4" src="./assets/img/user.png">
+            </label>
+            <div class="content content-4">
+               <span>Administrador</span>
+               <div class="title">
+                  Lorem Ipsum Dolor
+               </div>
+               <div class="text">
+                  informacion...
+               </div>
+               <button>Read more</button>
+            </div>
+        </div>
+
+            <div class="inner-part">
+                <label for="imgTap" class="img">
+                <img class="img-5" src="./assets/img/user.png">
+                </label>
+                <div class="content content-5">
+                   <span>Administrador</span>
+                   <div class="title">
+                      Lorem Ipsum Dolor
+                   </div>
+                   <div class="text">
+                      informacion...
+                   </div>
+                   <button>Read more</button>
+                </div>
+            </div>
+     </div>
+
+     <br><br><br>
+
+     <!--sistema de comentarios-->
     <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://youtuberland-3.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://youtuberland-3.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+    <script id="dsq-count-scr" src="//youtuberland-3.disqus.com/count.js" async></script>
 
-
-<script id="dsq-count-scr" src="//youtuberland-3.disqus.com/count.js" async></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
