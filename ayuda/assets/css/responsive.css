@@ -1,0 +1,52 @@
+@media(max-width:991px){
+    header{
+        padding: 20px;
+    }
+
+    header label{
+        display: initial;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid rgb(0, 0, 0,.1);
+        display: none;
+    }
+
+    header .navbar ul li{
+        width: 100%;
+    }
+
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li{
+        background: #eee;
+    }
+
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+    }
+
+    .blog-card{
+        width: 250;
+        height: 150;
+    }
+    
+    .inner-part .img{
+        height: 70px;
+        width: 90px;
+    }
+
+}
