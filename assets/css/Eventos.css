@@ -88,6 +88,10 @@ header label{
     justify-content: center;
 }
 
+.event{
+    color: red;
+}
+
 #card {
     width: 850px;
     height: 500px;
