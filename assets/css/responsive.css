@@ -1,0 +1,73 @@
+@media(max-width:991px){
+    header{
+        padding: 20px;
+    }
+
+    header label{
+        display: initial;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 1px solid rgb(0, 0, 0,.1);
+        display: none;
+    }
+
+    header .navbar ul li{
+        width: 100%;
+    }
+
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li{
+        background: #eee;
+    }
+
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+    }
+
+    #card{
+        width: 320px;
+        height: 406px;
+    }
+
+    #imagen{
+        width: 250px;
+        height: 128px;
+    }
+
+    #card.active{
+        width: 320px;
+        height: 406px;
+    }
+
+    #imagen.active{
+        width: 250px;
+        height: 128px;
+    }
+
+    .position{
+        display: none;
+    }
+
+    #posicion{
+        display: block;
+        position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -375px; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+}
+    }
