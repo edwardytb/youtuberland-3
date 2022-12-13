@@ -16,8 +16,20 @@ body.dark {
   background: #111111;
 }
 
-body.dark h2 {
+body.dark h2{
   color: #C8C8C8;
+}
+
+body.dark .comentarios span{
+  color: #C8C8C8;
+}
+
+body.dark .comentarios p{
+  color: #C8C8C8;
+}
+
+body.dark .comentarios a{
+  color: #ffffff;
 }
 
 a {
@@ -25,6 +37,13 @@ a {
     font-size: 25px;
     color: rgb(255, 0, 0);
     text-decoration: none;
+}
+
+body.dark .name{
+  color: red;
+}
+body.dark .description{
+  color: #265DF2;
 }
 
 .name{
