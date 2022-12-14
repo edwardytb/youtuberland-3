@@ -63,11 +63,11 @@
         display: none;
     }
 
-    #posicion{
+    .position{
         display: block;
         position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -25px 0 0 -375px; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
-}
+        top: 35%;
+      left: 50%;
+      margin: -25px 0 0 -375px;
+    }
     }
