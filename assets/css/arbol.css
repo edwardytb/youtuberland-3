@@ -1,7 +1,11 @@
-.position, #posicion{
-    position: relative;
-    justify-content: center;
-    align-items: center;
+.position{
+  display: block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 35%;
+  left: 50%;
+   margin: -25px 0 0 -375px;
 }
 
 .container {
