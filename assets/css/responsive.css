@@ -54,7 +54,7 @@
         height: 406px;
     }
 
-    #imagen.active{
+    body.dark #imagen{
         width: 250px;
         height: 128px;
     }
