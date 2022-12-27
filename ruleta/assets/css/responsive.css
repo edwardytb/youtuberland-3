@@ -1,0 +1,13 @@
+@media(max-width:991px){
+    .form-1{
+        width: 407px;
+        height: 460px;
+        margin: auto;
+        text-align: center;
+        padding-top: 30px;
+        color: red;
+        margin-top: 70px;
+        background-color: #5e5e5e;
+        
+    }
+}
