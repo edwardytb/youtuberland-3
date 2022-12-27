@@ -1,0 +1,96 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: #84abfd;
+}
+
+.form-1{
+	width: 500px;
+	height: 460px;
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+	color: red;
+	margin-top: 70px;
+	background-color: #5e5e5e;
+	
+}
+
+/*input datos*/
+.input {
+	background-color: #5e5e5e;
+	max-width: 125px;
+	height: 20px;
+	padding: 10px;
+	/*text-align: center;*/
+	border: 2px solid white;
+	border-radius: 18px;
+	/* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+}
+  
+.input:focus {
+	color: rgb(0, 255, 255);
+	background-color: #212121;
+	outline-color: rgb(0, 255, 255);
+	box-shadow: -10px -10px 15px rgb(0, 255, 255);
+	transition: .1s;
+	transition-property: box-shadow;
+}
+
+.input:hover {
+	color: rgb(0, 255, 255);
+	background-color: #212121;
+	outline-color: rgb(0, 255, 255);
+	box-shadow: -10px -10px 15px rgb(0, 255, 255);
+	transition: .1s;
+	transition-property: box-shadow;
+}
+
+.input::placeholder{
+	color: #fff;
+}
+
+.input:hover::placeholder{
+	color: red;
+}
+
+/*input datos*/
+.enviar {
+	background-color: #5e5e5e;
+	max-width: 250px;
+	height: 45px;
+	padding: 10px;
+	/*text-align: center;*/
+	border: 2px solid white;
+	border-radius: 18px;
+	/* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+}
+  
+.enviar:focus {
+	color: rgb(0, 255, 255);
+	background-color: #212121;
+	outline-color: rgb(0, 255, 255);
+	box-shadow: -10px -10px 15px rgb(0, 255, 255);
+	transition: .1s;
+	transition-property: box-shadow;
+}
+
+.enviar:hover {
+	color: rgb(0, 255, 255);
+	background-color: #212121;
+	outline-color: rgb(0, 255, 255);
+	box-shadow: -10px -10px 15px rgb(0, 255, 255);
+	transition: .1s;
+	transition-property: box-shadow;
+}
+
+.enviar::placeholder{
+	color: #fff;
+}
+
+.enviar:hover::placeholder{
+	color: red;
+}
