@@ -9,8 +9,8 @@ Swal.fire({
 }).then((result) => {
   if (result.isConfirmed) {
     Swal.fire(
-      'Cargando..',
-      'recuerda que los datos se enviaran.'
+      'recuerda que los datos se enviaran.',
+      ''
     )
   }
 })
