@@ -6,6 +6,12 @@
     header label{
         display: initial;
     }
+    
+    header .logo{
+        font-weight: bolder;
+        font-size: 28px;
+        color: rgb(255, 0, 0);
+    }
 
     header .navbar{
         position: absolute;
