@@ -2,8 +2,8 @@
     * Array con las imagenes que se iran mostrando en la web
     */
  var imagenes=new Array(
-    './assets/img/img-pagina/img-1.webp',
-    './assets/img/img-pagina/img-2.webp'
+    './assets/img/img-pagina/bloqueado.webp',
+    './assets/img/img-pagina/bloqueado.webp'
 );
 
 /**
