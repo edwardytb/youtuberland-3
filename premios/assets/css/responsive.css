@@ -1,13 +1,10 @@
 @media(max-width:991px){
-    .form-1{
+    .card {
         width: 355px;
         height: 460px;
-        margin: auto;
-        text-align: center;
-        padding-top: 70px;
-        color: red;
-        margin-top: 70px;
-        background-color: #5e5e5e;
-        
-    }
+        border-radius: 20px;
+        padding: 5px;
+        box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+        background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+       }
 }
