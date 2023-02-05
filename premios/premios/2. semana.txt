@@ -1,0 +1,10 @@
+1.64 de madera
+2.38 troncos de madera
+3.64 troncos de madera
+4.64 de piedra
+5.64 de carbon
+6.30 de hierro
+7.50 de hierro
+8.64 de hierro
+9.6 bloques de hierro
+10.pico de hierro encantado con fortuna 3, irrompible 3, reparacion 1

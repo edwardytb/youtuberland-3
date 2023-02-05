@@ -1,0 +1,10 @@
+1.4 stack troncos de madera
+2.4 stack de piedra
+3.4 stack de carbon
+4.2 stack de hierro
+5.3 stack de hierro
+6.1 stack de hierro
+7.25 de diamante
+8.pico de hierro encantado con fortuna 3, irrompible 3, reparacion 1, eficiencia 2
+9.espada de hierro encantado con filo 3, irrompible 3, reparacion 1, aspecto igneo 2
+10.hacha de hierro encantado con filo 3, irrompible 3, reparacion 1, aspecto igneo 3
