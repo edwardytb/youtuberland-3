@@ -1,6 +1,6 @@
 Swal.fire({
   title: 'premios',
-  text: "los prremios cambiaran cada semana!",
+  text: "los premios cambiaran cada semana!",
   icon: 'warning',
   //showCancelButton: 'false',
   confirmButtonColor: '#3085d6',
