@@ -1,9 +1,11 @@
 /**
     * Array con las imagenes que se iran mostrando en la web
     */
- var imagenes=new Array(
-    './assets/img/img-pagina/bloqueado.webp',
-    './assets/img/img-pagina/bloqueado.webp'
+var imagenes=new Array(
+    './assets/img/img-pagina/1-evento.webp',
+    './assets/img/img-pagina/1--evento.webp',
+    './assets/img/img-pagina/1_evento.webp',
+    './assets/img/img-pagina/1=evento.webp'
 );
 
 /**
