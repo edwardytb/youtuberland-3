@@ -1,0 +1,150 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+
+Primer codigo:
+
+Codigo que va en la plantilla de blogger antes de la etiqueta:  ]]></b:skin>   
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+#vplaylist, #vplayer {
+width: 90%; /* Ancho de todo el contenedor */
+padding: 20px;
+margin: 0 auto;
+display: block;
+text-align: center;
+}
+#vplayer {
+background:#232323; /* Fondo del primer contenedor */
+padding: 10px 20px;
+}
+video {
+width:95%; /* Ancho del reproductor */
+background: #f1f3f4;
+margin:0 auto;
+display: inline-block
+}
+#vplayer:after {
+/* Imagen animada */
+
+padding-left: 20px;
+}
+#vplaylist {
+margin: 0 auto 20px auto;
+display: block;
+background: #23a6b3; /* Fondo del segundo contenedor */
+border-top: 1px solid #fff;
+text-align: left;
+font-size: 14px; /* Estilos de fuente */
+font-family: 'Arial', Helvetica, sans-serif;
+font-weight: normal;
+}
+#vplaylist li, #vplaylist ul li {
+background-image: none;
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+#vplaylist li a {
+color: #ccc; /* Color de las canciones */
+background: #232323; /* Fondo de las canciones */
+padding: 7px 2px;
+display: block;
+padding-left: 10px;
+text-decoration: none;
+}
+#vplaylist li a:hover{
+background: #23a6b3; /* Color de fondo al pasar el cursor */
+text-decoration: none;
+}
+#vplaylist .active a {
+color: #fff; /* Color de la canción activa */
+font-style: Georgia;
+text-decoration: none;
+}
+#vplaylist .active a:before {
+content: "\25B6";
+color: #fff; /* Color del icono Play */
+font-style: normal;
+padding-right: 8px;
+}
+#vplaylist .active a:hover {
+color: #000; /* Color de la canción activa al pasar el cursor */
+}
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+Segundo codigo:
+
+Este codigo tambien va en la plantilla de blogger antes de la equiteta  </body>
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' type='text/javascript'/>
+<script>
+//<![CDATA[
+var video;var vplaylist;var vtracks;var vcurrent;initvideo();function initvideo(){vcurrent=0;video=$('video');vplaylist=$('#vplaylist');vtracks=vplaylist.find('li a');vlen=vtracks.length-1;video[0].volume=1;vplaylist.find('a').click(function(e){e.preventDefault();link=$(this);vcurrent=link.parent().index();runvideo(link,video[0])});video[0].addEventListener('ended',function(e){vcurrent++;if(vcurrent>vlen){vcurrent=0;link=vplaylist.find('a')[0]}else{link=vplaylist.find('a')[vcurrent]}runvideo($(link),video[0])})}function runvideo(link,player){player.src=link.attr('href');par=link.parent();par.addClass('active').siblings().removeClass('active');video[0].load();video[0].play()}
+//]]>
+</script>
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+Tercer codigo:
+
+Codigo HTML que se usara para colocar en un gadgest o una entrada de tu blog :
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+<div id="vplayer">
+<video controls='' height='224' width='100%' id='video' preload='auto' tabindex='0' type='video/mp4'>
+<source src=" URL PRIMER VIDEO " type="video/mp4"></source>
+</video>
+</div>
+<ul id="vplaylist">
+<li class="active"><a href=" URL PRIMER VIDEO "> NOMBRE DEL PRIMER VIDEO</a></li>
+<li><a href=" URL SEGUNDO VIDEO "> NOMBRE DEL SEGUNTO VIDEO </a></li>
+<li><a href=" URL TERCER  VIDEO "> NOMBRE DEL TERCER  VIDEO </a></li>
+<li><a href=" URL CUARTO  VIDEO "> NOMBRE DEL CUARTO  VIDEO </a></li>
+<li><a href=" URL QUINTO  VIDEO "> NOMBRE DEL QUINTO  VIDEO </a></li>
+</ul>
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+Codigo Adicional:
+
+Linea que puedes agregar dependiendo del numero de canciones Antes de la etiqueta de cierre:   </ul>    
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+<li><a href=" URL OTRO VIDEO"> NOMBRE DE OTRO VIDEO</a></li>
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Si agregas varios videos y no deseas que se ocupe mucho espacion puedes agregar una barra de despazamiento
+solo busca esta linea de codigo en los estilos del primer paso: #vplaylist {
+
+justo de bajo de esa linea coloca este codigo:
+
+
+height: 125px; /* alto del todo el contenedor */
+overflow: auto;
+
+
