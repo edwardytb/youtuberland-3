@@ -1,0 +1,16 @@
+body{
+    background: rgb(114,255,0);
+background: linear-gradient(90deg, rgba(114,255,0,1) 0%, rgba(33,145,37,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.text-1{
+    font-size: 80px;
+    color: red;
+}
+
+.p-1{
+    font-size: 40px;
+    display: flex;
+  justify-content: center;
+  color: antiquewhite;
+}
