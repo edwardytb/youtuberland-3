@@ -1,0 +1,138 @@
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 991px) {
+    #wrapper {
+        background:url(images/wrapper-top.webp) center top repeat-x;
+        width: auto;
+        height: auto;
+    }
+    #shell {
+        width:461px;
+        margin:0 auto;
+        padding:0 10px 30px 10px;
+    }
+    #header {
+        padding:12px 12px 12px 12px;
+        height:50%;
+    }
+    #logo {
+        font-family:Georgia, "Times New Roman", Sans-Serif;
+        font-style:italic;
+        font-weight:bolder;
+        font-size: 50px;
+    }
+    #navigation {
+        float:right;
+        display:inline;
+    }
+    #navigation ul li a {
+        color: aliceblue;
+        font-size:14px;
+        font-weight:bold;
+        text-decoration:none;
+    }
+    #intro {
+        background:#212121;
+        margin-bottom:10px;
+        padding:9px 9px 7px 9px;
+        height:100%;
+        overflow:hidden;
+    }
+    #intro .avatar {
+        float:left;
+        width:45px;
+        border:2px solid #101419;
+    }
+    
+    .avatar img{
+        width: 64px;
+        height: 50px;
+    }
+   
+    
+    .img-1{
+        width: 75px;
+        height: 75px;
+    }
+    
+    #intro .cnt {
+        float:right;
+        width:350px;
+        padding:3px 0 0 0;
+    }
+    #intro .cnt p {
+        color:#afafaf;
+        line-height:15px;
+        width:350px;
+        letter-spacing:0.3px;
+    }
+    .box .box-top {
+        background:url(images/content-top.webp) left top no-repeat;
+        width: 374px;
+    }
+    .box .box-bottom {
+        background:url(images/content-bottom.webp) left bottom no-repeat;
+        padding:5px 5px 5px 5px;
+        height:100%;
+        overflow:hidden;
+    }
+    #slider {
+        background:#181818 url(images/slider.webp) 0 0 no-repeat;
+        width:460px;
+        position:relative;
+        margin:0 -1px 10px;
+        height:270px;
+        overflow:hidden;
+        position:relative;
+        padding:0 10px;
+    }
+    #slider .data {
+        width:400px;
+        padding:45  12 10;
+    }
+    .jcarousel-prev, .jcarousel-next {
+        height:100px;
+        position:absolute;
+        top:75px;
+        z-index:10;
+        cursor:pointer;
+    }
+    .jcarousel-prev {
+        background:url(images/slider-arrow-prev.png);
+        width:55px;
+        left:11px;
+    }
+    .jcarousel-next {
+        background:url(images/slider-arrow-next.png);
+        width:55px;
+        right:11px;
+    }
+    #slider .data p {
+        line-height:10px;
+        padding-bottom:10px;
+    }
+    #slider ul li {
+        float:left;
+        width:450px;
+        height:270px;
+        padding:45px 13px 46px 27px;
+    }
+    #content {
+        width:415px;
+    }
+    .site-link {
+        width:260px;
+        float:left;
+        margin-right:20px;
+        position:relative;
+    }
+    .site-link img{
+        width: 245px;
+        height: 150px;
+    }
+    #slider .jcarousel-clip {
+        width:420px;
+        height:270px;
+        overflow:hidden;
+        position:relative;
+    }
+}
