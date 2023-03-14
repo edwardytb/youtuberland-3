@@ -136,3 +136,285 @@
         position:relative;
     }
 }
+
+@media screen and (max-width: 1600px) {
+
+    #wrapper {
+
+        background:url(images/wrapper-top.webp) center top repeat-x;
+
+        width: auto;
+
+        height: auto;
+
+    }
+
+    #shell {
+
+        width:1000px;
+
+        margin:0 auto;
+
+        padding:0 10px 30px 10px;
+
+    }
+
+    #header {
+
+        padding:12px 12px 12px 12px;
+
+        height:50%;
+
+    }
+
+    #logo {
+
+        font-family:Georgia, "Times New Roman", Sans-Serif;
+
+        font-style:italic;
+
+        font-weight:bolder;
+
+        font-size: 65px;
+
+    }
+
+    #navigation {
+
+        float:right;
+
+        display:inline;
+
+    }
+
+    #navigation ul li a {
+
+        color: aliceblue;
+
+        font-size:20px;
+
+        font-weight:bold;
+
+        text-decoration:none;
+
+    }
+
+    #intro {
+
+        background:#212121;
+
+        margin-bottom:10px;
+
+        padding:9px 9px 7px 9px;
+
+        height:100%;
+
+        overflow:hidden;
+
+    }
+
+    #intro .avatar {
+
+        float:left;
+
+        width:45px;
+
+        border:2px solid #101419;
+
+    }
+
+    
+
+    .avatar img{
+
+        width: 75px;
+
+        height: 50px;
+
+    }
+
+   
+
+    
+
+    .img-1{
+
+        width: 75px;
+
+        height: 75px;
+
+    }
+
+    
+
+    #intro .cnt {
+
+        float:right;
+
+        width:700px;
+
+        padding:3px 0 0 0;
+
+    }
+
+    #intro .cnt p {
+
+        color:#afafaf;
+
+        line-height:15px;
+
+        width: 350px;
+
+        letter-spacing:0.3px;
+
+    }
+
+    .box .box-top {
+
+        background:url(images/content-top.webp) left top no-repeat;
+
+        width: 800px;
+
+    }
+
+    .box .box-bottom {
+
+        background:url(images/content-bottom.webp) left bottom no-repeat;
+
+        padding:5px 5px 5px 5px;
+
+        height:100%;
+
+        overflow:hidden;
+
+    }
+
+    #slider {
+
+        background:#181818 url(images/slider.webp) 0 0 no-repeat;
+
+        width:960px;
+
+        position:relative;
+
+        margin:0 -1px 10px;
+
+        height:450px;
+
+        overflow:hidden;
+
+        position:relative;
+
+        padding:0 10px;
+
+    }
+
+    #slider .data {
+
+        width:900px;
+
+        padding:45,12,10;
+
+    }
+
+    .jcarousel-prev, .jcarousel-next {
+
+        height:100px;
+
+        position:absolute;
+
+        top:166px;
+
+        z-index:10;
+
+        cursor:pointer;
+
+    }
+
+    .jcarousel-prev {
+
+        background:url(images/slider-arrow-prev.png);
+
+        width:54px;
+
+        left:11px;
+
+    }
+
+    .jcarousel-next {
+
+        background:url(images/slider-arrow-next.png);
+
+        width:57px;
+
+        right:11px;
+
+    }
+
+    #slider .data p {
+
+        line-height:10px;
+
+        padding-bottom:12px;
+
+    }
+
+    #slider ul li {
+
+        float:left;
+
+        width:900px;
+
+        height:800px;
+
+        padding:45px 13px 46px 27px;
+
+    }
+
+    #content {
+
+        width:970px;
+
+    }
+
+    .site-link {
+
+        width:255px;
+
+        float:left;
+
+        margin-right:20px;
+
+        position:relative;
+
+    }
+
+    .site-link img{
+
+        width: 255px;
+
+        height: 150px;
+
+    }
+
+    .site-link img {
+
+        border:5px solid #000;
+
+        border-right-style:4px;
+
+        border-left-style:4px;
+
+    }
+
+    #slider .jcarousel-clip {
+
+        width:934px;
+
+	    height:433px;        overflow:hidden;
+
+        position:relative;
+
+    }
+
+}
